@@ -1,0 +1,72 @@
+/* bootstrap customisations */
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.list-group-item {
+  padding: 10px 0;
+  border: 0;
+}
+
+.list-group-item-heading {
+  padding: 10px 0;
+  background-color: rgba(217,224,33,0.8);
+  color: white;
+}
+
+.list-group-item-heading a {
+  color: black;
+}
+
+/* our app */
+
+body {
+  background-color: rgba(217,224,33,0.2);
+}
+
+.header {
+  padding: 0 5px;
+  background-color: white;
+}
+
+.logo {
+  background-image: url('../img/logo.png');
+  display: block;
+  width: 194px;
+  height: 32px;
+  background-size: 194px 32px;
+  background-repeat: no-repeat;
+  margin-top: 26px;
+}
+
+.panel-left {
+  padding: 20px 0 0 20px;
+}
+
+.panel-right {
+  padding: 20px 20px 0 20px;
+}
+
+.panel-content {
+  background-color: white;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  .logo {
+    background-image: url('../img/logo@2x.png');
+  }
+
+}

@@ -161,7 +161,7 @@ App.module('ProfilerModule', function (Mod, App, Backbone, Marionette, $, _) {
       var graph = this.graph = new Rickshaw.Graph( {
           element: this.ui.chart[0],
           width: this.ui.chart[0].clientWidth,
-          height: 70,
+          height: 9to0,
           renderer: 'bar',
           series: new Rickshaw.Series.FixedDuration([
             { name: 'millis', renderer: 'line' },
