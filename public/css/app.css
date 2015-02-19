@@ -2,18 +2,40 @@
 
 /* colour palette from http://www.colourlovers.com/palette/1930/cheer_up_emo_kid*/
 
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
 .container-fluid {
   padding: 0;
 }
 
 .row {
+  /*transition: background-color 0.3s ease;*/
   margin-left: 0;
   margin-right: 0;
+}
+
+.row.hover .row {
+  transition: all 0.1s ease;
+}
+
+.row.hover .row:hover {
+  background-color: rgba(78,205,196,1);
+  color: white;
 }
 
 .list-group-item {
   padding: 10px 0;
   border: 0;
+}
+
+.list-group-item:first-child {
+  border-radius: 0;
 }
 
 .list-group-item-heading {
