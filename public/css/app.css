@@ -1,5 +1,7 @@
 /* bootstrap customisations */
 
+/* colour palette from http://www.colourlovers.com/palette/1930/cheer_up_emo_kid*/
+
 .container-fluid {
   padding: 0;
 }
@@ -16,18 +18,19 @@
 
 .list-group-item-heading {
   padding: 10px 0;
-  background-color: rgba(217,224,33,0.8);
+  background-color: rgba(85,98,112,1);
   color: white;
+  border-radius: 4px 4px 0 0;
 }
 
 .list-group-item-heading a {
-  color: black;
+  color: white;
 }
 
 /* our app */
 
 body {
-  background-color: rgba(217,224,33,0.2);
+  background-color: rgba(78,205,196,0.2);
 }
 
 .header {

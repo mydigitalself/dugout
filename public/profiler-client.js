@@ -161,11 +161,11 @@ App.module('ProfilerModule', function (Mod, App, Backbone, Marionette, $, _) {
       var graph = this.graph = new Rickshaw.Graph( {
           element: this.ui.chart[0],
           width: this.ui.chart[0].clientWidth,
-          height: 9to0,
+          height: 90,
           renderer: 'bar',
           series: new Rickshaw.Series.FixedDuration([
-            { name: 'millis', renderer: 'line' },
-            { name: 'count', renderer: 'bar' },
+            { name: 'millis', renderer: 'line', color: '#C7F464' },
+            { name: 'count', renderer: 'bar', color: '#FF6B6B' },
             ], undefined, {
             timeInterval: 1000,
             maxDataPoints: 600,
